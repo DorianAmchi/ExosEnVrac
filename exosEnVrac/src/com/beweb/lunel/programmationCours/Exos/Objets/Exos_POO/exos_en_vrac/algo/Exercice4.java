@@ -2,8 +2,10 @@ package com.beweb.lunel.programmationCours.Exos.Objets.Exos_POO.exos_en_vrac.alg
 
 public class Exercice4 
 {
-//    Le code ne peut pas etre lancé car la variable flag n'est pas initialisé.
-//    A l'issu de l'algorithme, la variable i aura sa valeur initiale 0
+//  Le code ne peut pas etre lancé car la variable flag n'est ni initialisé 
+//  ni affecter.
+//  A l'issu de l'algorithme, la variable i aurait la valeur -2 si flag = true
+//  au départ et 2 si flag = false au départ.
     public static void launch()
     {
         boolean flag;

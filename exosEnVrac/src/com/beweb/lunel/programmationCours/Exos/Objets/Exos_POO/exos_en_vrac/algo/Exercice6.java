@@ -5,20 +5,35 @@ public class Exercice6
     public static void launch()
     {
         boolean[] tab = new boolean[10];
-        while(<tab.length)
+        int i = 0;
+        while(i<tab.length)
         {
-            tab[] = true;
-            ++;
+            tab[i] = true;
+            i++;
         }
-        while(<tab.length)
+        
+        i = 0;
+        while(i<tab.length)
         {
-            tab[] = false;
-            ++;
+            tab[i] = false;
+            i++;
         }
-        while(<tab.length)
+        
+        i = 0;
+        while(i<tab.length)
         {
-            tab[] = true;
-             = +1;
+            tab[i] = true;
+             i = i +1;
+            tab[i] = false;
+            i++;
         }
+        
+        i = 0;
+        while(i<tab.length)
+        {
+            System.out.println(tab[i]);
+            i++;
+        }
+        System.out.println("Exercice 6 Done");
     }
 }
