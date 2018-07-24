@@ -1,0 +1,3 @@
+Avec la souris, déplacé un carré dans les limites d'un rectangle défini.
+
+Au chargement de la page, le carré est au centre du rectangle.

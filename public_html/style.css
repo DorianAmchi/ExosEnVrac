@@ -1,0 +1,23 @@
+#body{
+    background-color: #bf0909d1;
+}
+
+.elements{
+    position:relative;
+    box-sizing:border-box;
+}
+.container{
+    width:800px;
+    height:600px;
+    margin:auto;
+    background-color:#98b8bb;
+}
+
+.container>div{
+    width:100px;
+    height:100px;
+    background-color:#2c2e2f;
+    border:white solid 1px;
+    top:;
+    left:;
+}
