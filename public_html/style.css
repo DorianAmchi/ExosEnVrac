@@ -1,0 +1,113 @@
+body {
+    background-color : silver;
+}
+
+div {
+    position : relative;
+    top : 0;
+}
+
+#tableDeJeu {
+    background-color : white;
+    height : 500px;
+    width : 500px;
+    margin : auto;
+}
+
+#erreur0 {
+    background-color : black;
+    height : 2px;
+    width : 250px;
+    left : 125px;
+    top : 413px;
+}
+
+#erreur1 {
+    background-color : black;
+    height : 325px;
+    width : 3px;
+    left : 50px;
+    top : -325px;
+}
+
+#erreur2 {
+    background-color : black;
+    height : 2px;
+    width : 250px;
+    left : -50px;
+    top : 0px;
+}
+
+#erreur3 {
+    background-color : black;
+    height : 50px;
+    width : 3px;
+    left : 150px;
+    top : 0px;
+}
+
+#erreur4 {
+    background-color : black;
+    height : 50px;
+    width : 50px;
+    left : -23px;
+    top : 50px;
+    border-radius: 50%;
+}
+
+#erreur5 {
+    background-color : black;
+    height : 125px;
+    width : 50px;
+    left : 0px;
+    top : 50px;
+    border-radius: 40px / 60px;
+}
+
+#erreur6 {
+    background-color : black;
+    height : 15px;
+    width : 100px;
+    left : -25px;
+    top : 25px;
+}
+
+#erreur7 {
+    background-color : black;
+    width: 20px;
+    height: 100px;
+    top: 50px;
+    left: 25;
+}
+
+#erreur8 {
+    background-color : black;
+    width: 20px;
+    height: 100px;
+    top: 0px;
+    left: 30;
+}
+
+#motPourJouer {
+    background-color : #b7afaf45;
+    width : 450px;
+    height : 70px;
+    top : 400px;
+    left : 25px;
+    text-align : center;
+}
+
+#motInput, #motButton {
+    position : relative;
+    top: -10px;
+}
+
+#resultat{
+    margin : auto;
+    width : 500px;
+    text-align : center;
+}
+
+#affichageResultat{
+    text-align: center;
+}
