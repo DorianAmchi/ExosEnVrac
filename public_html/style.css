@@ -1,0 +1,19 @@
+#fenetreChat{
+    height : 500px;
+}
+
+.pseudoMessage {
+    position : relative;
+    float : left;
+    left : 10px;
+    width : 50px;
+    
+    text-align: center;
+}
+
+.message{
+    position : relative;
+    left: 30px;
+}
+
+.fenetreChat div:nth-child(even) {background: #CCC}

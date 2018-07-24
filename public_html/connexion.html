@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+              crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="accordion" id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Log In
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <form class="form-signin">
+                            <input type="text" id="logPseudo" class="form-control" placeholder="Pseudo">
+                            <input type="password" id="logPassword" class="form-control" placeholder="Password">
+                            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="logIn()">LogIn</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                            Sign In
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <form class="form-signin">
+                            <input type="text" id="signInPseudo" class="form-control" placeholder="Pseudo">
+                            <input type="password" id="signInPassword" class="form-control" placeholder="Password">
+                            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="signIn()">Sign in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="connexion.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    </body>
+
+</html>
